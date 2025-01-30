@@ -6,8 +6,8 @@
   - Programming language used Python
 ### what it do
   - Navigates to the[Selenium Playground Table Search Dem](https://www.lambdatest.com/selenium-playground/table-sort-search-demo).
-  - Locates and interacts with the search box to search for "New York".
-  - Validates that the search results show 5 entries out of 24 total entries.
+  - Locates and interacts **"New York"** in the search box.
+  - Validates the search results show 5 entries.
 ### qa_selenium_test.py
   - This file contains Test_SeleniumPlayGround class and test_city_results method in it.
   - test_city_results is a instance method which takes below two peraamater:
