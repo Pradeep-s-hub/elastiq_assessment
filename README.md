@@ -11,9 +11,9 @@
 ### qa_selenium_test.py
   - This file contains Test_SeleniumPlayGround class and test_city_results method in it.
   - test_city_results is a instance method which takes below two peraamater:
-     - Bold: **setup:** which is already taken from Bold: **conftest.py** file
-     - Bold: **city:** which is passed form  @pytest.mark.parametrize('city',[("New York")])
-  -  Created object for class Bold:**TableSearch** which is imported from tableSearchObj.py and used methods in this class.
+     - **setup:** which is already taken from **conftest.py** file
+     - **city:** which is passed form  @pytest.mark.parametrize('city',[("New York")])
+  -  Created object for class **TableSearch** which is imported from tableSearchObj.py and used methods in this class.
   -  Send "New York" to searchbox and validate number of rows
 ### conftest.py file
    - This file contains setup part which can be used if any other file if we include in feature.
