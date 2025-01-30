@@ -2,6 +2,7 @@
 ### using below cmd to Run the script:
   - pytest .\qa_selenium_test.py -s -v
 ### Project info
+  - Pligins and packages installed : selenium,pytest
   - Used pytest framework with page object model approch
   - Programming language used Python
 ### what it do
